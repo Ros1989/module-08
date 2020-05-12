@@ -1,0 +1,145 @@
+@media screen and (max-width: 425px) {
+    .header {
+        background-image: url(../img/mobile.png);
+        background-color: #1a1915;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding-top: 20px;
+        padding-bottom: 138px;
+        background-image: url(../img/bg-768w.png);
+        background-color: #1a1915;
+    }
+
+    .navigation {
+        margin-bottom: 30px;
+    }
+
+    .navigation_list {
+        justify-content: center;
+        margin-bottom: 120px;
+    }
+
+    .logotype {
+        text-align: center;
+        display: block;
+    }
+
+    .find-description span {
+        display: block;
+    }
+
+    .partner_list-item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .partner_list-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .header {
+        padding-top: 38px;
+        padding-bottom: 234px;
+        background-image: url(../img/bg-1440w.png);
+        background-color: #1a1915;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 152px;
+    }
+
+    .find-wrap {
+        max-width: 510px;
+    }
+
+    .find-title {
+        font-size: 52px;
+        margin-bottom: 40px;
+    }
+
+    .find-description {
+        font-size: 24px;
+        margin-bottom: 35px;
+    }
+
+    .find-partner_button {
+        max-width: 226px;
+    }
+
+    .partner-title {
+        margin-bottom: 30px;
+    }
+
+    .partner_list {
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 39px;
+    }
+
+    .partner_list-item {
+        justify-content: center;
+        flex-basis: 220px;
+    }
+
+    .partner_order1 {
+        order: 0;
+    }
+
+    .partner_order2 {
+        order: 1;
+    }
+
+    .partner_order3 {
+        order: 2;
+    }
+
+    .partner_order4 {
+        order: 3;
+    }
+
+    .partner-more_button {
+        max-width: 194px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 939px) {
+    .header {
+        background-image: url(../img/bg-940w.png);
+        background-color: #1a1915;
+    }
+
+    .partners {
+        padding-bottom: 40px;
+    }
+
+    .partner_list {
+        flex-wrap: wrap;
+        width: 485px;
+    }
+
+    .partner_list-item:not(:nth-child(2n)) {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 940px) {
+    .partners {
+        padding-bottom: 73px;
+    }
+}
